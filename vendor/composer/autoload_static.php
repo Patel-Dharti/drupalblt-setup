@@ -130,6 +130,7 @@ class ComposerStaticInitbce5f255344b01aba48056995ca542fd
         ),
         'E' => 
         array (
+            'Example\\' => 8,
             'Enlightn\\SecurityChecker\\' => 25,
             'Egulias\\EmailValidator\\' => 23,
         ),
@@ -394,8 +395,8 @@ class ComposerStaticInitbce5f255344b01aba48056995ca542fd
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -452,6 +453,10 @@ class ComposerStaticInitbce5f255344b01aba48056995ca542fd
         'Grasmash\\Expander\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
+        ),
+        'Example\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/blt/src',
         ),
         'Enlightn\\SecurityChecker\\' => 
         array (
@@ -563,8 +568,8 @@ class ComposerStaticInitbce5f255344b01aba48056995ca542fd
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
-            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
-            1 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
+            0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
+            1 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (

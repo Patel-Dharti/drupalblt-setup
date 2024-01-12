@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '42d12c15b91a38489c7c52ac3927a9fa835e65b7',
+        'reference' => '2523fb778ef9778b7462a1f81fa7f459ccc90ce1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -85,7 +85,7 @@
         'behat/mink-extension' => array(
             'dev_requirement' => true,
             'replaced' => array(
-                0 => 'v2.7.4',
+                0 => 'v2.7.5',
             ),
         ),
         'behat/mink-selenium2-driver' => array(
@@ -478,7 +478,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '42d12c15b91a38489c7c52ac3927a9fa835e65b7',
+            'reference' => '2523fb778ef9778b7462a1f81fa7f459ccc90ce1',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -512,9 +512,9 @@
             'dev_requirement' => true,
         ),
         'friends-of-behat/mink-extension' => array(
-            'pretty_version' => 'v2.7.4',
-            'version' => '2.7.4.0',
-            'reference' => '18d5a53dff3e2c8934c53e2db8b02b7ea345fe85',
+            'pretty_version' => 'v2.7.5',
+            'version' => '2.7.5.0',
+            'reference' => '854336030e11983f580f49faad1b49a1238f9846',
             'type' => 'behat-extension',
             'install_path' => __DIR__ . '/../friends-of-behat/mink-extension',
             'aliases' => array(),
@@ -739,8 +739,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(

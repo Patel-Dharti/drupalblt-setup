@@ -1,2 +1,9 @@
 project:
   machine_name: drupalblt
+command-hooks:
+ frontend-reqs:
+   dir: ${docroot}/themes/custom/drupalblt
+   command: 'npm install'
+ frontend-assets:
+   dir: ${docroot}/themes/custom/drupalblt
+   command: 'gulp sass'

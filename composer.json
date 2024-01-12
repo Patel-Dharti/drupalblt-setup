@@ -23,7 +23,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -36,6 +36,11 @@
             "acquia/blt": true
         },
         "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "blt/src/"
+        }
     },
     "extra": {
         "drupal-scaffold": {
